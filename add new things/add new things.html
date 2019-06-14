@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+  <title>Add new tings</title>
+ 
+</head>
+<body>
+<nav class="pink" style="height:130px; border-radius: 0px 0px 500px 0px">
+  <div class="nav wrapper">
+    <div class="container">
+<a href="" class="brand-logo center"><h3>Add New Thing</h3></a>
+
+
+<a href="" class="button-collapse show-on-large" data-activates="sidenav"><i class="material-icons">menu</i></a>
+<ul class="right collection hide-on-small-and-down" style="margin:0px;
+      border: 0px solid transparent">  
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<br>
+<section class="container">
+    <div class="row ">
+        <div class="col s8 offset-s3" >
+        <label class="pink-text">Title:</label> 
+        <br>
+        <input type="text" placeholder="Enter Title of todo here"name="FirstName" style="border-color:black;border-radius:60px;"><br>
+        </div>
+      </div>
+      <div class="row ">
+          <div class="col s8 offset-s3" >
+              <label class="pink-text">Description:</label>
+              <br><br>
+              <textarea placeholder="Enter Description of todo here" rows="4" cols="50"style="border-color:black;border-radius:20px;height:160px">
+              
+                  </textarea>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col s8 offset-s3" >
+        <div class="btn waves-effect waves-light pink white-text"style="border-radius:50px;">
+            <i class="center" style="padding-bottom:20px;">Add your thing</i>
+        </div>
+        </div>
+      </div>
+</section>
+
+</section>
+<ul class="side-nav fixed" id="sidenav">
+  <li>
+<a href="">
+  <img src="img/circle.png" alt="" class="circle">
+</a>
+  </li>
+  <br><br>
+  <input type="text" placeholder="Search" name="search" style="border-radius:50px; border-color:black;">
+
+  <div class="btn waves-effect waves-light grey"style="width:295px;margin-bottom:5px;">
+      <a class="black-text"><i class="material-icons left black-text">loyalty</i>My Day</a>  
+  </div>
+  <div class="btn waves-effect waves-light grey"style="width:295px;margin-bottom:5px;">
+      <a class="black-text"><i class="material-icons left black-text">loyalty</i>Important</a>  
+  </div>
+  <div class="btn waves-effect waves-light grey"style="width:295px;margin-bottom:5px;">
+      <a class="black-text"><i class="material-icons left black-text">loyalty</i>Done Task</a>  
+  </div>
+  <div class="btn waves-effect waves-light grey"style="width:295px;margin-bottom:5px;">
+      <a class="black-text"><i class="material-icons left black-text">loyalty</i>Coming Task</a>  
+  </div>
+  <div class="divider black"style="margin-bottom:5px;"></div>
+
+  <div class="btn waves-effect waves-light white"style="width:295px;margin-bottom:5px;">
+      <a class="blue-text"><i class="material-icons left black-text">add</i>New List</a>  
+  </div>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      $('.button-collapse').sideNav();
+    });
+  </script>
+
+
+</body>
+
+</html>
